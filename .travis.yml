@@ -48,4 +48,4 @@ deploy:
     repo: yuk7/CentWSL
     tags: true
     all_branches: true
-skip_cleanup: true
+  skip_cleanup: true
