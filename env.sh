@@ -2,7 +2,7 @@
 
 ARCH="x86_64"
 OS_VER="7"
-ROOTFS_VER="1905"
+ROOTFS_VER="1907"
 ROOTFS_FN="CentOS-${OS_VER}-${ARCH}-GenericCloud-${ROOTFS_VER}.raw"
 ROOTFS_TGZ="${ROOTFS_FN}.tar.gz"
 ROOTFS_URL="http://cloud.centos.org/centos/7/images/${ROOTFS_TGZ}"
