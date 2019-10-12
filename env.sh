@@ -7,7 +7,7 @@ ROOTFS_FN="CentOS-${OS_VER}-${ARCH}-GenericCloud-${ROOTFS_VER}.raw"
 ROOTFS_TGZ="${ROOTFS_FN}.tar.gz"
 ROOTFS_URL="http://cloud.centos.org/centos/7/images/${ROOTFS_TGZ}"
 
-LNCR_BLD="19070200"
+LNCR_BLD="19083100"
 LNCR_ZIP="icons.zip"
 LNCR_FN="CentOS.exe"
 LNCR_URL="https://github.com/yuk7/wsldl/releases/download/${LNCR_BLD}/${LNCR_ZIP}"
