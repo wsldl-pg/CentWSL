@@ -4,11 +4,11 @@ based on [wsldl](https://github.com/yuk7/wsldl)
 
 ![screenshot](https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Cent_Arch_Alpine.png)
 [![Build Status](https://img.shields.io/travis/yuk7/CentWSL.svg?style=flat-square)](https://travis-ci.org/yuk7/CentWSL)
-[![Github All Releases](https://img.shields.io/github/downloads/yuk7/CentWSL/total.svg?style=flat-square)](https://github.com/yuk7/CentWSL/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/yuk7/CentWSL/total.svg?style=flat-square)](https://github.com/yuk7/CentWSL/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![License](https://img.shields.io/github/license/yuk7/CentWSL.svg?style=flat-square)
 
-### [Download](https://github.com/yuk7/CentWSL/releases/latest)
+### [Download](https://github.com/yuk7/CentWSL/releases)
 
 
 ## Requirements
@@ -16,7 +16,7 @@ based on [wsldl](https://github.com/yuk7/wsldl)
 * Windows Subsystem for Linux feature is enabled.
 
 ## Install
-#### 1. [Download](https://github.com/yuk7/CentWSL/releases/latest) installer zip
+#### 1. [Download](https://github.com/yuk7/CentWSL/releases) installer zip
 
 #### 2. Extract all files in zip file to same directory
 
