@@ -35,6 +35,9 @@ Usage :
     run <command line>
       - Run the given command line in that distro. Inherit current directory.
 
+    runp <command line (includes windows path)>
+      - Run the path translated command line in that distro.
+
     config [setting [value]]
       - `--default-user <user>`: Set the default user for this distro to <user>
       - `--default-uid <uid>`: Set the default user uid for this distro to <uid>
@@ -45,11 +48,12 @@ Usage :
       - `--default-uid`: Get the default user uid in this distro
       - `--append-path`: Get on/off status of Append Windows PATH to $PATH
       - `--mount-drive`: Get on/off status of Mount drives
-      - `--lxuid`: Get LxUID key for this distro
+      - `--lxguid`: Get WSL GUID key for this distro
 
-    backup
-      - Output backup.tar.gz to the current directory using tar command.
-      
+    backup [contents]
+      - `--tgz`: Output backup.tar.gz to the current directory using tar command
+      - `--reg`: Output settings registry file to the current directory
+
     clean
       - Uninstall the distro.
 
