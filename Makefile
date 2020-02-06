@@ -54,4 +54,4 @@ clean:
 	-rm icons.zip
 	-rm rootfs.tar.gz
 	-sudo rm -r rootfs
-	-rm base.tar.gz
+	-rm base.tar.xz
