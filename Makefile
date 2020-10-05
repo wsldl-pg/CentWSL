@@ -3,7 +3,7 @@ LNCR_EXE=CentOS8.exe
 
 DLR=curl
 DLR_FLAGS=-L
-BASE_URL=http://cloud.centos.org/centos/8/x86_64/images/CentOS-8-Container-8.1.1911-20200113.3-layer.x86_64.tar.xz
+BASE_URL=http://cloud.centos.org/centos/8/x86_64/images/CentOS-8-Container-8.2.2004-20200611.2.x86_64.tar.xz
 LNCR_ZIP_URL=https://github.com/yuk7/wsldl/releases/download/20040300/icons.zip
 LNCR_ZIP_EXE=CentOS.exe
 
