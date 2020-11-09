@@ -61,6 +61,13 @@ Usage :
       - Print this usage message.
 ```
 
+#### Add Users and Set default user
+```bash
+useradd -m -g wheel -s /bin/bash {USERNAME}
+```
+```
+CentOS.exe config --default-user {USERNAME}
+```
 
 #### How to uninstall instance
 ```dos
