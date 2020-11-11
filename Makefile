@@ -14,11 +14,12 @@ $(OUT_ZIP): ziproot
 	@echo -e '\e[1;31mBuilding $(OUT_ZIP)\e[m'
 	cd ziproot; zip ../$(OUT_ZIP) *
 
-ziproot: Launcher.exe rootfs.tar.gz
+ziproot: Launcher.exe rootfs.tar.gz LICENSE-3RD-PARTY
 	@echo -e '\e[1;31mBuilding ziproot...\e[m'
 	mkdir ziproot
 	cp Launcher.exe ziproot/${LNCR_EXE}
 	cp rootfs.tar.gz ziproot/
+	cp LICENSE-3RD-PARTY ziproot/
 
 exe: Launcher.exe
 Launcher.exe: icons.zip
